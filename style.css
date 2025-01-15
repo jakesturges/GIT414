@@ -1,0 +1,24 @@
+
+
+/* ROOT VARIABLES */
+:root {
+    --dough: #D9C4A3;
+    --chocolate-chip: #704214;
+    --crust: #C27D45;
+}
+
+/*  GLOBAL STYLES*/
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+/* MEDIA QUERY (medium) */
+@media screen and (min-width: 941px) {
+    body {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/* MEDIA QUERY (large) */
+/* MEDIA QUERY (xl) */
