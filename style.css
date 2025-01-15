@@ -60,6 +60,11 @@ body {
     grid-template-columns: 1fr;
 }
 
+section {
+    margin: 20px;
+    border: 1px solid green;
+}
+
 
 /* MEDIA QUERY (medium) */
 @media screen and (min-width: 941px) {
@@ -68,4 +73,14 @@ body {
     }
 }
 /* MEDIA QUERY (large) */
+@media screen and (min-width: 1280px) {
+    body {
+        grid-template-columns: 1fr 1fr 200px;
+    }
+}
 /* MEDIA QUERY (xl) */
+@media screen and (min-width: 1440px) {
+    body {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
